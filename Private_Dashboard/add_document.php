@@ -373,7 +373,7 @@ position:absolute;
       <td><?php echo $download; ?></td>
 
 
-           <td><img src="img/View.png" width="30px" height="30px" title="View File"></a> <a href='delete.php?ID=<?php echo $id; ?>'>
+           <td><a href="<?php readfile($_FILES['myfile']['tmp_name']);?>"><img src="img/View.png" width="30px" height="30px" title="View File"></a> <a href='delete.php?ID=<?php echo $id; ?>'><img src="img/Delete.png" width="30px" height="30px" title="Delete File"></a>
     </tr>
 <?php } ?>
 </tbody>

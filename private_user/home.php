@@ -131,7 +131,7 @@ if(!isset($_SESSION["email_address"])){
            <font color="black">Welcome!,</font> <?php echo ucwords(htmlentities($id)); ?> <i class="fas fa-user-circle"></i> Login </a>
         <div class="dropdown-menu dropdown-menu-right dropdown-info" aria-labelledby="navbarDropdownMenuLink-4">
           <a class="dropdown-item" href="history_log.php"> <i class="fas fa-chalkboard-teacher"></i> User Logged</a>
-          <a class="dropdown-item" href="Logout.php"><i class="fas fa-sign-in-alt"></i> LogOut</a>
+          <a class="dropdown-item" href="logout.php"><i class="fas fa-sign-in-alt"></i> LogOut</a>
 
         </div>
       </li>

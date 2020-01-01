@@ -48,7 +48,7 @@ if (isset($_POST['save'])) { // if save button on the form is clicked
                ';
               } 
       
-        date_default_timezone_set("asia/manila");
+        date_default_timezone_set("Africa/Nairobi");
          $time = date("M-d-Y h:i A",strtotime("+0 HOURS"));
 
         // move the uploaded (temporary) file to the specified destination

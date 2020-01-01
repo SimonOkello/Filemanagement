@@ -6,5 +6,6 @@ $id = mysqli_real_escape_string($conn,$_GET['ID']);
 
 
 mysqli_query($conn,"DELETE FROM upload_files WHERE ID='$id'")or die(mysql_error());
+//unlink("../uploads/".$row['ID']);
 echo "<script type='text/javascript'>alert('Deleted File!');document.location='add_document.php'</script>";
 ?>
